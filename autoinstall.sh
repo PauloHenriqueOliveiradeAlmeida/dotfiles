@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syu polybar neovim kitty fish rofi picom ly ttf-firacode-nerd code starship &&
+sudo pacman -Syu polybar neovim kitty fish rofi picom ly ttf-firacode-nerd code starship neofetch &&
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish &&
 omf install https://github.com/dracula/fish &&
