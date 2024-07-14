@@ -2,8 +2,8 @@
 
 sudo pacman -Syu polybar neovim kitty fish rofi picom ly ttf-firacode-nerd code starship neofetch &&
 
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish &&
-omf install https://github.com/dracula/fish &&
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install &&
+#omf install https://github.com/dracula/fish &&
 
 sudo systemctl disable lightdm.service &&
 sudo systemctl enable ly.service &&
